@@ -1,8 +1,11 @@
-"""Dedalus simulation of 3d Rayleigh benard rotating convection
+"""Dedalus simulation of 32d Rayleigh benard convection.
+
+   This script solves the temperature equation and applies periodic boundary conditions in the horizontal
+   direction. The top and bottom boundaries are set to no slip.
 
 Usage:
-    3d-rrbc.py --ra=<rayleigh> --N=<resolution> --max_dt=<maximum_dt> --init_dt=<Initial_dt> [--pr=<prandtl>] [--mesh=<mesh>]
-    3d-rrbc.py -h | --help
+    2d-rbc.py --ra=<rayleigh> --N=<resolution> --max_dt=<maximum_dt> --init_dt=<Initial_dt> [--pr=<prandtl>] [--mesh=<mesh>]
+    2d-rbc.py -h | --help
 
 Options:
     -h --help   Display this help message
