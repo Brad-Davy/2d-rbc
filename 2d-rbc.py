@@ -1,4 +1,5 @@
-"""Dedalus simulation of 32d Rayleigh benard convection.
+"""Dedalus simulation of 2d Rayleigh benard convection.
+
 
    This script solves the temperature equation and applies periodic boundary conditions in the horizontal
    direction. The top and bottom boundaries are set to no slip.
